@@ -34,6 +34,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     height: 34px;
     line-height: 34px;
     padding: 15px 0;
+    display: block;
 }
 
 #logo > img {
@@ -213,6 +214,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     letter-spacing: 4px;
     font-family: Lato;
     font-size: 16px;
+    color: rgba(107, 122, 107, 1.00);
 }
 
 .slider_slogo2{
@@ -230,6 +232,33 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-family: Caudex;
     font-size: 54px;
     color: rgba(28, 78, 42, 1.00);
+}
+.slider_slogo4 {
+    position: absolute;
+    left: 325px;
+    top: 430px;
+}
+.slider_slogo4 > a{
+    background-color:rgb(250, 251, 250);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(28, 78, 42);
+}
+
+.icon-cc-nd:before{
+    content: '\e833';
+}
+
+.slider_slogoPic{
+    position: absolute;
+    left: 718px;
+    top: 70px;
+}
+
+.slider_slogoPic img{
+    width: 855px;
+    height: 683px;
 }
 
 
