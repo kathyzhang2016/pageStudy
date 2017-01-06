@@ -50,7 +50,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .topBar_left{
     position:relative;
     float: left;
-    width: 90%;
+    width: 1573px;
 }
 
 .menu_wrapper {
@@ -65,7 +65,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .menu li {
     float: left;
     margin: 0;
-    padding-right: 40px;
+
 }
 
 .menu>li>a{
@@ -74,14 +74,21 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     letter-spacing: 1px;
     text-decoration: none;
     outline: 0;
+    display: block;
 }
 
 .menu>li>a>span {
     line-height: 64px;
-    border-left-width: 1px;
+    display: block;
+    padding: 0px 30px;
     border-right-width: 0;
+    border-style: solid;
     border-color: #F2F2F2;
     color: #6b7a6b;
+}
+
+.menu>li:first-child>a span:not(.description) {
+    border-left-width: 1px;
 }
 
 #topBar .topBar_right {
@@ -108,7 +115,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     position: relative;
     display: block;
     font-size: 20px;
-    background: #e8ede6;
+    /*background: #e8ede6;*/
 }
 
 .icon-bag-fine:before {
@@ -147,10 +154,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .mfn-main-slider{
     position: relative;
-    /*height: 750px;*/
-    /*width: 100%;*/
-    /*background: url('../../libs/img/home_herbal_slider_bg.png') center center no-repeat;*/
-    /*background-size: 100% 100%;*/
+    top: 64px;
 }
 
 #rev_slider_1_1{
@@ -244,6 +248,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-size: 16px;
     font-weight: 400;
     color: rgb(28, 78, 42);
+    padding: 12px 25px;
 }
 
 .icon-cc-nd:before{
